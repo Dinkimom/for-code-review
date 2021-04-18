@@ -1,0 +1,218 @@
+.root {
+  background: linear-gradient(180deg, #f5db13 0%, #f2b807 100%);
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  width: 666px;
+  height: 310px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 0 auto;
+  transform: translateY(10%);
+}
+
+.imageContainer {
+  width: 304px;
+  padding: 8px;
+  background: linear-gradient(270deg, #b33327 0.15%, #d93e30 100%);
+
+  .types {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.infoContainer {
+  min-width: 364px;
+  padding: 31px 30px 20px 12px;
+  color: #ffffff;
+  flex-grow: 1;
+  text-transform: capitalize;
+  background: linear-gradient(180deg, #732119 42.19%, #d93e30 100%);
+
+  .titleName {
+    margin-bottom: 12px;
+    text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+    text-transform: capitalize;
+  }
+
+  .abilities {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fdfdfd;
+    box-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+    border-radius: 16px;
+    padding: 8px 23px;
+
+    h2 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 19px;
+      color: #000000;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    .ability {
+      background: #f28f16;
+      box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
+      border-radius: 11px;
+      height: 20px;
+      min-width: 60px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 18px;
+      text-align: center;
+      color: #212121;
+      padding: 0 12px 2px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 12px;
+      text-transform: capitalize;
+      cursor: pointer;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        background-color: #c36e06;
+      }
+    }
+  }
+}
+
+.statsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.statsWrapper {
+  width: 78px;
+  height: 68px;
+  background: #fdfdfd;
+  box-shadow: 4px 4px 24px rgba(1, 17, 38, 0.2);
+  border-radius: 8px;
+
+  .statItem {
+    padding: 5px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #4b4b4b;
+    margin-right: 12px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .statValue {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #212121;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #212121;
+    margin: 0 auto 8px;
+  }
+}
+
+.label {
+  background: #f28f16;
+  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
+  border-radius: 11px;
+  height: 15px;
+  min-width: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #212121;
+  padding: 0 12px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  text-transform: capitalize;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 120px;
+
+  h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 4px;
+    margin-bottom: 19px;
+    margin-top: 0;
+    padding-top: 20px;
+    text-transform: capitalize;
+  }
+
+  h2 {
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 4px;
+    margin-bottom: 19px;
+    margin-top: 19px;
+    text-transform: capitalize;
+  }
+
+  .description {
+    margin-top: 51px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+.grass {
+  background-color: green;
+}
+
+.poison {
+  background-color: purple;
+}
+
+.fire {
+  background-color: orange;
+}
+
+.flying {
+  background-color: lightblue;
+}
+
+.water {
+  background-color: blue;
+}
+
+.bug {
+  background-color: chocolate;
+}
