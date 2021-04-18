@@ -1,0 +1,21 @@
+.slider-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    margin-top: 51px;
+    outline: none;
+
+    a~a {
+      margin-left: 15px;
+    }
+    
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  
+    & div~div {
+      margin-left: 10px;
+    }
+  }
+
+  
